@@ -1,0 +1,26 @@
+// Добавление интерактивных карточек товаров
+const products = document.querySelectorAll('.product-card');
+products.forEach((product) => {
+    product.addEventListener('click', () => {
+        // Добавьте здесь логику обработки нажатия на карточку товара
+    });
+});
+
+// Добавление анимации при скроллинге
+const headings = document.querySelectorAll('h2, h3');
+headings.forEach((heading) => {
+    heading.style.opacity = 0;
+    heading.style.transform = 'translateX(-20px)';
+});
+
+window.addEventListener('scroll', () => {
+    headings.forEach((heading) => {
+        const headingPosition = heading.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight / 1.2;
+
+        if (headingPosition < screenPosition) {
+            heading.style.opacity = 1;
+            heading.style.transform = 'translateX(0)';
+        }
+    });
+});

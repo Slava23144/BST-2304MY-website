@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Магазин ноутбуков Darwin</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Добро пожаловать в магазин ноутбуков Darwin</h1>
+            <p>Ваш надежный источник для покупки качественных ноутбуков по доступным ценам.</p>
+        </div>
+    </header>
+    <nav>
+        <div class="nav-content">
+            <ul>
+                <li><a href="#section1">Ноутбуки</a></li>
+                <li><a href="#section2">Особенности</a></li>
+                <li><a href="#section3">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="section1">
+        <div class="section-content">
+            <h2>Ноутбуки в нашем магазине</h2>
+            <div class="product-category">
+                <h3>Обычные компьютеры</h3>
+                <div class="products">
+                    <div class="product-card">
+                        <img src="https://www.ixbt.com/img/r30/00/02/36/04/msi-gf75-thin-10sdr-big.jpg" alt="Ноутбук 1">
+                        <h4>Ноутбук Acer Aspire 5</h4>
+                        <p><strong>Характеристики:</strong></p>
+                        <ul>
+                            <li>Процессор: Intel Core i5</li>
+                            <li>Оперативная память: 8 ГБ</li>
+                            <li>Жесткий диск: 256 ГБ SSD</li>
+                            <li>Цвет: Серебристый</li>
+                        </ul>
+                        <p>Цена: $799</p>
+                    </div>
+                    <!-- Добавьте другие обычные ноутбуки здесь -->
+                </div>
+            </div>
+            <div class="product-category">
+                <h3>Ноутбуки Apple</h3>
+                <div class="products">
+                    <div class="product-card">
+                        <img src="https://idamag.ru/pictures/product/middle/16905_middle.jpg" alt="MacBook 1">
+                        <h4>MacBook Air</h4>
+                        <p><strong>Характеристики:</strong></p>
+                        <ul>
+                            <li>Процессор: Intel Core i5</li>
+                            <li>Оперативная память: 8 ГБ</li>
+                            <li>Жесткий диск: 256 ГБ SSD</li>
+                            <li>Цвет: Серебристый</li>
+                        </ul>
+                        <p>Цена: $1099</p>
+                    </div>
+                    <!-- Добавьте другие ноутбуки Apple здесь -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="section-content">
+            <h2>Особенности ноутбуков</h2>
+            <p>Наши ноутбуки обладают высокой производительностью, долгим временем работы и качественными дисплеями. Вы можете выбрать ноутбук, который подходит именно вам.</p>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="section-content">
+            <h2>Контакты</h2>
+            <p>Свяжитесь с нами по адресу: example@email.com</p>
+            <p><strong>Телефоны:</strong></p>
+            <ul>
+                <li>Телефон 1: +1234567890</li>
+                <li>Телефон 2: +9876543210</li>
+            </ul>
+            <p><strong>Адрес магазина:</strong> Ул. Первая, 12345, Город</p>
+        </div>
+    </section>
+</body>
+</html>
